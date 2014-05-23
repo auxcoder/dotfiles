@@ -46,6 +46,6 @@ alias apart="sudo apachectl restart"
 alias apat="sudo apachectl -t"
 
 # SQL aliases
-alias ="service mysql start"
-alias ="service mysql stop"
-alias ="service mysql restart"
+alias sqlst="service mysql start"
+alias sqlsp="service mysql stop"
+alias sqlrt="service mysql restart"
