@@ -1,0 +1,51 @@
+# cmd aliases for cd to paths
+alias cdd="cd ~/Dropbox"
+alias cddp="cd ~/Dropbox/projects"
+alias cdh="cd ~/"
+alias src="source ~/.bash_profile"
+
+#ruby aliases
+alias bx="bundle exec"
+
+#octopress aliases
+alias bxr="bundle exec rake"
+alias bxrg="bundle exec rake generate"
+alias bxrp="bundle exec rake preview"
+alias bxrd="bundle exec rake deploy"
+
+# show/hidde files
+alias showfiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hidefiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+
+#App aliases
+alias sbl='open -a "Sublime Text"'
+
+# apache restart
+alias apar="sudo apachectl restart"
+
+# Initialize rbenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# Change directory to the current Finder directory
+cdf() {
+	target=`osascript -e 'tell application "Finder" to if (count of Finder windows) > 0 then get POSIX path of (target of front Finder window as text)'`
+	if [ "$target" != "" ]; then
+		cd "$target"; pwd
+	else
+		echo 'No Finder window found' >&2
+	fi
+}
+
+# reset the DNS cache
+alias flushdns="sudo dscacheutil -flushcache"
+
+# apache aliases
+alias apast="sudo apachectl start"
+alias apasp="sudo apachectl stop"
+alias apart="sudo apachectl restart"
+alias apat="sudo apachectl -t"
+
+# SQL aliases
+alias sqlst="service mysql start"
+alias sqlsp="service mysql stop"
+alias sqlrt="service mysql restart"
