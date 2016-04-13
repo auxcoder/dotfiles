@@ -41,11 +41,11 @@ alias flushdns="sudo dscacheutil -flushcache"
 
 # apache aliases
 alias apast="sudo apachectl start"
-alias apasp="sudo apachectl stop"
-alias apart="sudo apachectl restart"
+alias apaop="sudo apachectl stop"
+alias aparst="sudo apachectl restart"
 alias apat="sudo apachectl -t"
 
 # SQL aliases
-alias sqlst="service mysql start"
-alias sqlsp="service mysql stop"
-alias sqlrt="service mysql restart"
+alias sqlst="mysql.server start"
+alias sqlsp="mysql.server stop"
+alias sqlrst="mysql.server restart"
