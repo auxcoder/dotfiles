@@ -101,6 +101,7 @@ brew install webkit2png
 brew install zopfli
 
 # Install tools
+brew install node
 brew install TomAnthony/brews/itermocil
 
 # Remove outdated versions from the cellar.
