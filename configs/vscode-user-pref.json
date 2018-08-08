@@ -1,0 +1,98 @@
+// Place your settings in this file to overwrite the default settings
+{
+	// Controls whether the editor should render whitespace characters
+	"editor.renderWhitespace": "all",
+	// When enabled, will trim trailing whitespace when you save a file.
+	"files.trimTrailingWhitespace": true,
+	// Controls if the editor will insert spaces for tabs. Accepted values:  "auto", true, false. If set to "auto", the value will be guessed when a file is opened.
+	"editor.insertSpaces": false,
+	// Controls if the editor will scroll beyond the last line
+	"editor.scrollBeyondLastLine": false,
+	// Controls the indentation of wrapped lines. Can be one of 'none', 'same' or 'indent'.
+	"editor.wrappingIndent": "indent",
+	// Configure glob patterns for excluding files and folders.
+	"files.exclude": {
+		"**/.git": true,
+		"**/bower_components": true,
+		"**/node_modules": true,
+		"**/.DS_Store": true,
+		"**/.idea": true,
+		"**/*.sublime-workspace": true,
+		"**/test-reports": true,
+		"**/.tmp": true
+	},
+	// Controls auto save of dirty files. Accepted values:  "off", "afterDelay", "onFocusChange". If set to "afterDelay" you can configure the delay in "files.autoSaveDelay".
+	"files.autoSave": "off",
+	"editor.wordWrap": "on",
+	// Configure glob patterns for excluding files and folders in searches. Inherits all glob patterns from the file.exclude setting.
+	"search.exclude": {
+		"**/.vscode": true,
+		"**/dist": true,
+		"**/node_modules": false,
+		"**/bower_components": true,
+		"**/*.sublime-workspace": true
+	},
+	//-------- TypeScript configuration --------
+	// Complete functions with their parameter signature.
+	"typescript.useCodeSnippetsOnMethodSuggest": true,
+	// List of tags, comma separated, that should have an extra newline before them. 'null' defaults to "head, body, /html".
+	"html.format.extraLiners": "pre",
+	// Enable crash reports to be sent to Microsoft.
+	"telemetry.enableCrashReporter": false,
+	// .Run code runner preferences
+	"code-runner.clearPreviousOutput": true, // default: false
+	"code-runner.showExecutionMessage": false,
+	"window.zoomLevel": 0,
+	"editor.lineHeight": 22,
+	"window.newWindowDimensions": "inherit",
+	"workbench.colorTheme": "Nova",
+	"editor.fontFamily": "Fira Code, Operator Mono SSm, Iosevka, Menlo, Monaco, 'Courier New', monospace",
+	"eslint.run": "onSave",
+	"editor.snippetSuggestions": "top",
+	"typescript.check.npmIsInstalled": false,
+	"editor.fontSize": 13,
+	"editor.fontLigatures": true,
+	"workbench.commandPalette.preserveInput": true,
+	"editor.minimap.showSlider": "always",
+	"emmet.triggerExpansionOnTab": true,
+	"editor.rulers": [
+		80
+	],
+	"editor.multiCursorModifier": "ctrlCmd",
+	"explorer.openEditors.visible": 0,
+	"workbench.activityBar.visible": false,
+	"projectManager.groupList": true,
+	"importCost.javascriptExtensions": [
+		"\\.vue?$"
+	],
+	"editor.tabCompletion": true,
+	"window.openFilesInNewWindow": "on",
+	"emmet.includeLanguages": {
+		"vue-html": "html",
+		"javascript": "javascriptreact"
+	},
+	"editor.wordWrapColumn": 80,
+	"markdown.previewFrontMatter": "show",
+	"[markdown]": {
+		"editor.wordWrap": "bounded",
+		"editor.quickSuggestions": false
+	},
+	"files.trimFinalNewlines": true,
+	"javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+	"todohighlight.isCaseSensitive": false,
+	"emmet.syntaxProfiles": {
+		"javascript": "jsx"
+	},
+	"telemetry.enableTelemetry": false,
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"vue"
+	],
+	"eslint.enable": true,
+	"eslint.autoFixOnSave": true,
+	"editor.tabSize": 2,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"code-runner.defaultLanguage": "javascript",
+	"[javascriptreact]": {}
+}
