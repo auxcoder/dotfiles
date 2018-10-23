@@ -900,11 +900,11 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>1773 1688 606 469 661 800 2560 1417 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>1383 1275 796 486 661 800 2560 1417 </string>
+	<string>1383 1306 796 486 661 800 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>152 0 1280 777 0 0 1280 777 </string>
+	<string>696 1062 1305 1155 661 800 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>355 85 769 792 0 0 1440 877 </string>
+	<string>0 0 1280 777 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>197 0 690 673 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
@@ -915,6 +915,8 @@
 	<array>
 		<dict>
 			<key>ASCII Anti Aliased</key>
+			<true/>
+			<key>ASCII Ligatures</key>
 			<true/>
 			<key>AWDS Pane Directory</key>
 			<string></string>
@@ -1503,7 +1505,7 @@
 			<key>Open Toolbelt</key>
 			<false/>
 			<key>Option Key Sends</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Prompt Before Closing 2</key>
 			<false/>
 			<key>Right Option Key Sends</key>
@@ -2195,7 +2197,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>0AB7816A-2F42-4248-9564-A628A60F756C</string>
 	<key>NoSyncLastTipTime</key>
-	<real>555448613.82361698</real>
+	<real>555623948.32757103</real>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -2273,6 +2275,8 @@
 		<string>0067</string>
 		<string>0068</string>
 		<string>0069</string>
+		<string>0070</string>
+		<string>0071</string>
 	</array>
 	<key>PointerActions</key>
 	<dict>
@@ -2309,6 +2313,8 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/pavelduran/Sites/dotfiles/configs</string>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>SUEnableAutomaticChecks</key>
@@ -2320,7 +2326,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-08-08T19:07:21Z</date>
+	<date>2018-08-29T20:05:30Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -2329,6 +2335,8 @@
 	<true/>
 	<key>SmartPlacement</key>
 	<false/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>iTerm Version</key>
 	<string>3.2.0</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>

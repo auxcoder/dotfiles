@@ -104,6 +104,9 @@ brew install git-lfs
 
 # Install scripts tools
 brew install node
+brew install nvm
+brew install redis
+brew install postgresql
 brew install TomAnthony/brews/itermocil
 brew install caskroom/cask/brew-cask
 
