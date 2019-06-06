@@ -102,13 +102,18 @@ brew install git-lfs
 # brew install webkit2png
 # brew install zopfli
 
+# docker
+brew install docker
+
 # Install scripts tools
 brew install node
+brew install redis
+brew install postgresql
 brew install TomAnthony/brews/itermocil
 brew install caskroom/cask/brew-cask
 
 # Install desktop apps
-brew cask install google-chrome sublime-text transmit sourcetree sequel-pro dropbox firefox spotify slack
+brew cask install google-chrome sublime-text transmit sourcetree sequel-pro dropbox firefox spotify slack virtualbox
 
 # Remove outdated versions from the cellar.
 brew cleanup
