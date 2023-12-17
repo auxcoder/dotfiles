@@ -1,7 +1,9 @@
 # cmd aliases for cd to paths
 alias cdd="cd ~/Dropbox"
-alias cddp="cd ~/Dropbox/projects"
-alias cdh="cd ~/"
+alias cdl="cd ~/Downloads"
+alias cdt="cd ~/Desktop"
+alias cdw="cd ~/WSO"
+alias cds="cd ~/Sites"
 alias src="source ~/.bash_profile"
 
 #ruby aliases
@@ -46,3 +48,6 @@ alias apat="sudo apachectl -t"
 alias sqlst="mysql.server start"
 alias sqlsp="mysql.server stop"
 alias sqlrst="mysql.server restart"
+
+# list process runing in port 5000
+alias proc5="sudo lsof -i -P | grep 5000"
