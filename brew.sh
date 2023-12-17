@@ -50,9 +50,12 @@ brew install homebrew/php/php55 --with-gmp
 
 # Install font tools.
 brew tap bramstein/webfonttools
-brew install sfnt2woff
-brew install sfnt2woff-zopfli
-brew install woff2
+brew install sfnt2woff # ttf to woff converter
+brew install sfnt2woff-zopfli # compress woff
+brew install woff2 # utilities to create and convert woff
+
+# configure shell
+brew install powerlevel9k
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 # brew install aircrack-ng
@@ -86,10 +89,13 @@ brew install ack
 # Control the macOS dark mode from the command-line
 brew install dark-mode
 #brew install exiv2
+brew install zsh
 brew install git
+brew install git-flow
 brew install git-lfs
 # brew install imagemagick --with-webp
-# brew install lua
+brew install lua
+brew install ctags
 # brew install lynx
 # brew install p7zip
 # brew install pigz
@@ -107,13 +113,14 @@ brew install docker
 
 # Install scripts tools
 brew install node
-brew install redis
-brew install postgresql
+brew install sqlite
+# brew install redis
+# brew install postgresql
 brew install TomAnthony/brews/itermocil
 brew install caskroom/cask/brew-cask
 
 # Install desktop apps
-brew cask install google-chrome sublime-text transmit sourcetree sequel-pro dropbox firefox spotify slack virtualbox
+brew cask install google-chrome sublime-text sourcetree sequel-pro dropbox firefox spotify
 
 # Remove outdated versions from the cellar.
 brew cleanup
