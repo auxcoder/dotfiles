@@ -1,10 +1,5 @@
 {
-  "Ansi 5 Color" : {
-    "Red Component" : 0.61568627450979996,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.83921568627451004,
-    "Green Component" : 0.47450980392156999
-  },
+  "Thin Strokes" : 4,
   "Working Directory" : "\/Users\/pavelduran\/Sites",
   "Prompt Before Closing 2" : false,
   "Selected Text Color" : {
@@ -62,6 +57,8 @@
         "class" : "iTermStatusBarWorkingDirectoryComponent",
         "configuration" : {
           "knobs" : {
+            "minwidth" : 0,
+            "base: priority" : 5,
             "shared text color" : {
               "Red Component" : 0.90000000000000002,
               "Color Space" : "sRGB",
@@ -69,9 +66,7 @@
               "Alpha Component" : 1,
               "Green Component" : 0.63
             },
-            "base: priority" : 5,
             "base: compression resistance" : 1,
-            "minwidth" : 0,
             "maxwidth" : 1.7976931348623157e+308
           },
           "layout advanced configuration dictionary value" : {
@@ -109,8 +104,6 @@
           "knobs" : {
             "minwidth" : 0,
             "iTermStatusBarGitComponentPollingIntervalKey" : 2,
-            "base: priority" : 5,
-            "base: compression resistance" : 1,
             "shared text color" : {
               "Red Component" : 0.87515999999999994,
               "Color Space" : "sRGB",
@@ -118,6 +111,8 @@
               "Alpha Component" : 1,
               "Green Component" : 0.90000000000000002
             },
+            "base: priority" : 5,
+            "base: compression resistance" : 1,
             "maxwidth" : 1.7976931348623157e+308
           },
           "layout advanced configuration dictionary value" : {
@@ -343,7 +338,7 @@
       },
       "remove empty components" : false,
       "algorithm" : 0,
-      "auto-rainbow style" : 1,
+      "font" : ".AppleSystemUIFont 12",
       "background color" : {
         "Red Component" : 0.0078431377187371254,
         "Color Space" : "sRGB",
@@ -351,7 +346,7 @@
         "Alpha Component" : 1,
         "Green Component" : 0.090196080505847931
       },
-      "font" : ".AppleSystemUIFont 12"
+      "auto-rainbow style" : 1
     }
   },
   "Hide After Opening" : false,
@@ -656,6 +651,7 @@
   "Smart Cursor Color" : true,
   "Ambiguous Double Width" : false,
   "Blur Radius" : 1.6133876070063173,
+  "Cursor Type" : 2,
   "Ansi 0 Color" : {
     "Red Component" : 0.078431372549019995,
     "Color Space" : "sRGB",
@@ -664,7 +660,7 @@
   },
   "AWDS Pane Directory" : "",
   "Blur" : false,
-  "Normal Font" : "MesloLGLDZNF-Regular 13",
+  "Normal Font" : "IosevkaNF-Medium 16",
   "Vertical Spacing" : 1,
   "Use Underline Color" : false,
   "Ansi 7 Color" : {
@@ -724,6 +720,11 @@
   "Use Tab Color" : true,
   "Visual Bell" : true,
   "ASCII Ligatures" : true,
-  "Thin Strokes" : 4,
-  "Custom Directory" : "Advanced"
+  "Custom Directory" : "Advanced",
+  "Ansi 5 Color" : {
+    "Red Component" : 0.61568627450979996,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.83921568627451004,
+    "Green Component" : 0.47450980392156999
+  }
 }

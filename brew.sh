@@ -6,7 +6,11 @@
 sudo -v
 
 # Keep-alive: update existing `sudo` time stamp until the script has finished.
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+while true; do
+	sudo -n true
+	sleep 60
+	kill -0 "$$" || exit
+done 2>/dev/null &
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -46,16 +50,15 @@ brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
-brew install homebrew/php/php55 --with-gmp
 
 # Install font tools.
 brew tap bramstein/webfonttools
-brew install sfnt2woff # ttf to woff converter
+brew install sfnt2woff        # ttf to woff converter
 brew install sfnt2woff-zopfli # compress woff
-brew install woff2 # utilities to create and convert woff
+brew install woff2            # utilities to create and convert woff
 
 # configure shell
-brew install powerlevel9k
+brew install powerlevel10k
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 # brew install aircrack-ng
@@ -107,6 +110,11 @@ brew install ctags
 # brew install tree
 # brew install webkit2png
 # brew install zopfli
+brew install zoxide
+brew install fzf
+brew install gnu-sed
+brew install fish
+brew install lazygit
 
 # docker
 brew install docker
@@ -115,12 +123,13 @@ brew install docker
 brew install node
 brew install sqlite
 # brew install redis
-# brew install postgresql
+brew install postgresql
 brew install TomAnthony/brews/itermocil
 brew install caskroom/cask/brew-cask
 
 # Install desktop apps
 brew cask install google-chrome sublime-text sourcetree sequel-pro dropbox firefox spotify
+# brew install --cask warp
 
 # Remove outdated versions from the cellar.
 brew cleanup
