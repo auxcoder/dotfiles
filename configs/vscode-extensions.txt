@@ -15,9 +15,13 @@ code --install-extension felixfbecker.php-intellisense
 code --install-extension formulahendry.auto-close-tag
 code --install-extension formulahendry.auto-rename-tag
 code --install-extension formulahendry.code-runner
-code --install-extension johnpapa.Angular1
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension nikitaKunevich.snippet-creator
+code --install-extension joelday.docthis
+code --install-extension ms-mssql.mssql
+code --install-extension octref.vetur
+code --install-extension rbbit.typescript-hero
+code --install-extension sensourceinc.vscode-sql-beautify
 code --install-extension vscodevim.vim
 code --install-extension wmaurer.change-case
 code --install-extension xabikos.JasmineSnippets
