@@ -115,10 +115,7 @@ brew install fzf
 brew install gnu-sed
 brew install fish
 brew install lazygit
-
-# docker
 brew install docker
-
 # Install scripts tools
 brew install node
 brew install sqlite
@@ -128,8 +125,7 @@ brew install TomAnthony/brews/itermocil
 brew install caskroom/cask/brew-cask
 
 # Install desktop apps
-brew cask install google-chrome sublime-text sourcetree sequel-pro dropbox firefox spotify
-# brew install --cask warp
+brew cask install google-chrome sublime-text transmit sourcetree sequel-pro dropbox firefox spotify
 
 # Remove outdated versions from the cellar.
 brew cleanup
