@@ -1,14 +1,19 @@
 # cmd aliases for cd to paths
 alias cdd="cd ~/Dropbox"
-alias cdl="cd ~/Downloads"
-alias cdt="cd ~/Desktop"
-alias cdw="cd ~/WSO"
+alias cddp="cd ~/Dropbox/projects"
+alias cdh="cd ~/"
 alias cds="cd ~/Sites"
-alias src="source ~/.bash_profile"
+alias cdw="cd ~/WSO"
+alias cdwo="cd ~/WSO/oca-client/"
+alias cdoca="cd ~/WSO/oca-client/"
+alias cdpt="cd ~/Dropbox/papers-tech"
+alias cdpd="cd ~/Dropbox/papers-dyi"
+alias cdpu="cd ~/Dropbox/papers-usa"
+alias srcb="source ~/.bash_profile"
+alias srcz="source ~/.zshrc"
 
-#ruby aliases
+#ruby
 alias bx="bundle exec"
-
 #octopress aliases
 alias bxr="bundle exec rake"
 alias bxrg="bundle exec rake generate"
@@ -48,6 +53,22 @@ alias apat="sudo apachectl -t"
 alias sqlst="mysql.server start"
 alias sqlsp="mysql.server stop"
 alias sqlrst="mysql.server restart"
+
+# laravel sail
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+
+# git aliases
+alias gs="git status"
+alias gc="git commit"
+alias gx="git checkout"
+alias gaa="git add -A"
+alias gd="git diff"
+alias gdc="git diff -cached"
+
+# Brew services PostgresQL aliases
+alias pqst="brew services start postgresql"
+alias pqsp="brew services stop postgresql"
+alias pqrst="brew services restart postgresql"
 
 # list process runing in port 5000
 alias proc5="sudo lsof -i -P | grep 5000"
